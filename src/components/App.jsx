@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import slides from 'presentations/10_10_2018_React_Architecture'
+import slides from 'presentations/10_11_2018_React_Architecture'
 
 
 class App extends Component {
