@@ -1,0 +1,39 @@
+.awesomeness {
+  @extend .gold;
+  text-shadow: 2px 2px 2px black;
+}
+
+.intro-img {
+  @extend .ph2;
+  @extend .w-33;
+  width: 33%;
+
+  img {
+    border: 1px solid;
+    border-radius: 20px;
+  }
+}
+
+.bg-image {
+  @extend .vh-min-100;
+  @extend .relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  &:after {
+    @extend .fixed;
+    @extend .top-0;
+    @extend .left-0;
+    @extend .bg-white-75;
+    @extend .w-100;
+    @extend .h-100;
+    @extend .z0;
+    content: '';
+  }
+}
+
+.gray-dash {
+  border: 1px dashed gray;
+}
